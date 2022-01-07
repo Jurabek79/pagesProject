@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aboutniki bu</title>
+</head>
+<body>
+    <h3><h1 style="display: inline; color: red;">Aboutniki bu</h1>bu % extends 'base.html' % dan tepaga bulgani uchun % block content% ni ichiga yozilmagan busa ham kurinadi</h3>
+    {% extends 'base.html' %}
+
+    <h2>bu yerda About html </h2>
+    {% block content%}
+    <h1>Aboutni ichidagilar ko'rinyapti</h1>
+    <input value="about_bu" type="text">
+    {% endblock content%}
+</body>
+</html>
